@@ -30,3 +30,5 @@ Never test on systems you don't own
 Comply with all applicable laws and regulations
 
 Python 3.11.9
+
+#DDoS #Amplification #IoT #botnet #socks5 #exploit
