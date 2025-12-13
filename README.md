@@ -1,32 +1,28 @@
-NETKiller Scripts Collection
-⚠️ WARNING: This repository contains legacy educational code. It is NOT operational and is provided for research purposes only.
+# NETKiller Scripts Collection 🗃️
 
-📌 Overview
-This archive contains historical proof-of-concept scripts demonstrating various network security concepts. The code is incomplete, contains bugs, and is not maintained. It is published solely for educational analysis in controlled environments.
+[![Status: Legacy](https://img.shields.io/badge/Status-Legacy_Archive-orange)](https://github.com/your-username/netkiller-scripts)
+[![Python: 3.11.9](https://img.shields.io/badge/Python-3.11.9-blue)](https://python.org)
+[![Educational Use](https://img.shields.io/badge/Use-Educational%20Only-lightgrey)](https://opensource.org/licenses)
+[![Security Research](https://img.shields.io/badge/Field-Security_Research-red)](https://www.cisecurity.org)
 
-🔧 Contents (Conceptual)
-Basic L3/L4/L7 network testing concepts
-Protocol scanners (SOCKS5, IoT, QUIC)
-BitTorrent/DHT interaction research
-Cloudflare bypass attempts (obsolete)
-IoT vulnerability research templates
+> **⚠️ CRITICAL DISCLAIMER:** This repository contains **legacy educational code**. It is **NOT operational** and is provided **for research purposes only** in controlled environments.
 
-🎯 Purpose
-For Security Researchers: Study historical attack vectors for defensive improvements
-For Students: Learn about network protocols in isolated lab environments
-For Developers: Analyze code structure and common vulnerabilities
+## 📌 Overview
 
+This archive serves as a **historical repository** of proof-of-concept scripts demonstrating various **historical network security concepts**. The contained code is intentionally **incomplete, contains known bugs, and is entirely unmaintained**.
 
-🔒 Legal Disclaimer
-This software is provided "AS IS" without warranty. The author assumes no responsibility for any misuse. By accessing this repository, you agree to use it only for:
-Authorized security research
-Academic study
-Legal testing in controlled environments
+| Status | Purpose | Environment |
+|--------|---------|-------------|
+| 🔴 **Non-Functional** | 📚 **Educational Analysis** | 🔒 **Controlled Labs Only** |
 
-📚 Safe Usage Guidelines
-Use in completely isolated virtual machines
-Disable network access or use host-only networks
-Never test on systems you don't own
-Comply with all applicable laws and regulations
+## 🧰 Conceptual Contents
 
-Python 3.11.9
+### 📡 Network Layer Research
+- **Basic L3/L4/L7** network testing concepts
+- **Protocol scanners** (SOCKS5, IoT, QUIC analysis)
+- **BitTorrent/DHT** interaction research templates
+
+### ☁️ Historical Bypass Attempts
+- **Cloudflare bypass** methodologies (now obsolete)
+- **IoT vulnerability** research frameworks
+- **Protocol manipulation** concept code
