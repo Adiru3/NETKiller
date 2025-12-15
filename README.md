@@ -18,7 +18,7 @@ This archive represents a **comprehensive, multi-vector framework** demonstratin
 | Script | Primary Class | Functional Summary |
 | :--- | :--- | :--- |
 | **`blackout.py`** | `IoTDDoSAttack` | **The central C2 framework.** Coordinates and launches over 40 distinct L3, L4, and L7 attacks. Features include: RAW Socket management for **IP Spoofing** (essential for Amplification/Reflection), **HTTP/2 Rapid Reset**, **BGP Hijacking emulation**, **NGINX Worker/Keepalive Killers**, advanced **DNS Water Torture**, **Zero Trust Bypass** logic, and **WebSocket** attacks. |
-| **`quic.py`** | `QUICAttacker` | **HTTP/3 QUIC Flooder. Implements direct UDP floods targeting the QUIC protocol (HTTP/3) on port 443/UDP. Includes logic for both high-speed direct QUIC flood and QUIC Amplification attacks (leveraging connection negotiation). |
+| **`quic.py`** | `QUICAttacker` | HTTP/3 QUIC Flooder. Implements direct UDP floods targeting the QUIC protocol (HTTP/3) on port 443/UDP. Includes logic for both high-speed direct QUIC flood and QUIC Amplification attacks (leveraging connection negotiation). |
 
 ### II. 🔍 Reconnaissance & Vulnerability Assessment
 
@@ -32,7 +32,7 @@ This section details tools used for target intelligence gathering and deep vulne
 | **`cl5.py`** | `comprehensive_ip_finder` | **Origin IP Finder (DNS Lookup).** Finds the real Origin IP of a website hidden behind CDNs (like Cloudflare) by performing **MX and TXT record lookups** and checking if the resolved IP is within known CDN ranges. |
 | **`cl2.py`** | `check_ip_services` | **Origin IP Finder (Public Services).** Finds historical and current IP addresses using **public OSINT services** (e.g., HackerTarget, ViewDNS IP History) often used to discover the real backend server IP. |
 | **`scanbt.py`** | `DHTScanner` | **BitTorrent DHT Network Mapper.** Actively crawls the BitTorrent Distributed Hash Table (DHT) network to build massive lists of active IP addresses (`dht_nodes.txt`) for use as attack infrastructure or targets. |
-| **`quic.py`** | `QUICHunter` | **QUIC Protocol Scanner. Dedicated tool for hunting for open QUIC endpoints (port 443/UDP) and reliably measuring the QUIC Amplification Ratio by analyzing the size of the server's Initial packet response. |
+| **`quic.py`** | `QUICHunter` | QUIC Protocol Scanner. Dedicated tool for hunting for open QUIC endpoints (port 443/UDP) and reliably measuring the QUIC Amplification Ratio by analyzing the size of the server's Initial packet response. |
 
 ### III. 📡 Advanced Layer 3/4 Attacks & Utilities
 
