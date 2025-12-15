@@ -1,4 +1,4 @@
-# NETKiller Scripts Collection 🗃️
+# BlackOut Scripts Collection 🗃️
 
 [![Status: Legacy](https://img.shields.io/badge/Status-Legacy_Archive-orange)](https://github.com/your-username/netkiller-scripts)
 [![Python: 3.11.9](https://img.shields.io/badge/Python-3.11.9-blue)](https://python.org)
